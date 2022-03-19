@@ -1,0 +1,10 @@
+<?php
+$DB_USER=""; //Database Username
+$DB_PASS=""; //Database Password
+$DB_HOST=""; //Database Hostname
+$DB_NAME=""; //Database Databasename
+
+if ($DB_USER.$DB_PASS.$DB_HOST.$DB_NAME == ""){
+	echo "You must edit the dbconnect.php file to set it up for your database.";
+}
+?>

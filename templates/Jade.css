@@ -1,0 +1,216 @@
+/* CSS Document */
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+table.nav {
+	background-color: #015D01;
+	border: 1px solid #000000;
+	height: auto;
+	width: 182px;
+}
+
+.navhead {
+	text-decoration: none;
+	width: 180px;
+	height: auto;
+	padding: 1px;
+	line-height: 18px;
+	float: left;
+	clear: none;
+	background-color: #004800;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: default;
+	text-align: center;
+}
+
+a {
+	color: #D1FFD1;
+	text-decoration: none;
+}
+
+a.nav {
+	color:
+	text-decoration: none;
+      width: 181px;
+	height: auto;
+      padding: 1px;
+	float: left;
+	clear: none;
+	background-color: #004800;
+	border: 1px solid #004800;
+}
+
+.navhelp {
+	text-decoration: none;
+      width: 181px;
+	height: auto;
+      padding: 1px;
+	float: left;
+	clear: none;
+	background-color: #015D01;
+	border: 1px solid #015D01;
+}
+
+a:hover.nav {
+    background-color: #015D01;
+	border-top: 1px solid #029402;
+	border-left: 1px solid #029402;
+	border-bottom: 1px solid #013901;
+	border-right: 1px solid #013901;
+}
+a.navhilite {
+	text-decoration: none;
+	width: 150px;
+	height: auto;
+	padding: 1px;
+	float: right;
+	clear: none;
+	color:#FFFF00;
+	background-color: #330000;
+	border-top: thin solid #330000;
+	border-bottom: thin solid #330000;
+	border-right: thin none #330000;
+	border-left: thin none #330000;
+}
+a:hover.navhilite {
+	background-color: #CC0000;
+	border-top: thin outset #CC0000;
+	border-right: thin none #CC0000;
+	border-bottom: thin outset #CC0000;
+	border-left: thin none #CC0000;
+}
+
+
+table {
+}
+td.charinfo {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #009900;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: default;
+}
+td.charhead {
+	background-color: #009900;
+	border: none;
+	cursor: default;
+	color: #FFFF00;
+}
+table.charinfo {
+	border: none;
+	width: 182px;
+}
+td.popupheader {
+	background-color: #333399;
+	background-image: url(../images/headbkg.GIF);
+	height: 20px;
+}
+td.noborder {
+	border: none;
+}
+table.noborder {
+	border: none;
+}
+td.village {
+	background-image: url(../images/village.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+td.forest {
+	background-image: url(../images/forest.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+td.dragon {
+	background-image: url(../images/dragon.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+input {
+	background-color: #015D01;
+	border: 1px solid #013901;
+	color: #CCCCCC;
+}
+.button {
+font-family: verdana,arial,helvetica,sans-serif;  
+     font-size: 12px;  
+     color: #FFFFFF;  
+     background-color: #015D01;  
+     border-top: 1px solid #029402;  
+     border-left: 1px solid #029402;  
+     border-right: 1px solid #013901;  
+     border-bottom: 1px solid #013901;
+}
+.input {
+	background-color: #015D01;
+	border: 1px solid #013901;
+	color: #CCCCCC;
+}
+select {
+	background-color: #015D01;
+	border: 1px solid #806B4D;
+	color: #CCCCCC;
+}
+table.vitalinfo {
+	background-color: #003300;
+	border: 1px solid #000000;
+	width: 182px;
+}
+a.motd {
+	text-decoration: none;
+	color:#D1FFD1;
+}
+a:hover.motd {
+	font-weight: bold;
+}
+
+a.hotmotd {
+	font-weight: bold;
+}
+.pagetitle {
+	font-family: "Courier";
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.navhi {
+	color: #00FF00;
+	text-decoration: underline;
+}
+.colDkBlue    { color: #0000B0; }
+.colDkGreen   { color: #00B000; }
+.colDkCyan    { color: #00B0B0; }
+.colDkRed     { color: #B00000; }
+.colDkMagenta { color: #B000CC; }
+.colDkYellow  { color: #B0B000; }
+.colDkWhite   { color: #B0B0B0; }
+.colLtBlue    { color: #0000FF; }
+.colLtGreen   { color: #00FF00; }
+.colLtCyan    { color: #00FFFF; }
+.colLtRed     { color: #FF0000; }
+.colLtMagenta { color: #FF00FF; }
+.colLtYellow  { color: #FFFF00; }
+.colLtWhite   { color: #FFFFFF; }
+.colLtBlack   { color: #999999; }
+.colOrange  { color: #FF9900; }
+.colDkOrange  { color: #FF6600; }
+.colBlue  { color: #0070FF; }
+.colLime  { color: #DDFFBB; }
+.colBlack  { color: #000000; }
+.colRose { color: #EEBBEE; }
+.colblueviolet { color: #9A5BEE; }
+.coliceviolet{ color: #AABBEE; }
+.colLtBrown { color: #F8DB83; }
+.colDkBrown { color: #6b563f; }
+.colXLtGreen{color: #aaff99; }
+.colAttention { background-color: #00FF00; color: #FF0000;}
+.colWhiteBlack { background-color: #FFFFFF; color: #000000; }
+.colBack  { background-color:#00FFFF; color:#000000; }
+.trhead  { background-color:#990000; color:#FFFFFF; }
+.trlight { background-color:#330000; }
+.trdark  { background-color:#000000; }

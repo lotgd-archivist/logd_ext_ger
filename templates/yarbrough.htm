@@ -1,0 +1,91 @@
+<!--!header-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//DE">
+<html>
+<head>
+<title>{title}</title>
+<link href='templates/yarbrough.css' rel='stylesheet' type='text/css'>
+{headscript}{script}
+</head>
+<body bgcolor='#000000' text='#CCCCCC'>
+<table border='0' cellpadding=4 cellspacing=0 width='100%'>
+  <tr>
+    <td colspan=2 class='pageheader' valign='top'> <img src='images/title.gif' align='right'><span class='pagetitle'><br>
+    {title} </span></td>
+
+  </tr>
+  <tr>
+    <td width=190 bgcolor='#433828' valign='top' align='center'> <img src='images/uscroll.GIF' width='182' height='11' alt=''>
+      <table cellspacing='0' cellpadding='0' class='nav'>
+        <tr>
+          <td>{nav}</td>
+        </tr>
+      </table>
+
+      <img src='images/lscroll.GIF' width='182' height='11'> <br>
+      {motd} <br>
+      {mail} <br>
+      {petition} <br>
+      {forum} <br>
+{chat} </td>
+    <td width='100%' rowspan=2 valign='top' bgcolor='#352D20'><table align='right' border='0'><tr><td>{paypal}</td></tr></table>
+      <!--!footer-->
+    </td>
+
+  </tr>
+  <tr>
+    <td width='190' valign='top' bgcolor='#433828'><img src='images/uscroll.GIF' width='182' height='11' alt=''>
+      <table border='0' cellpadding='0' cellspacing='0' class='vitalinfo'>
+        <tr>
+          <td> {stats} </td>
+        </tr>
+
+      </table>
+      <img src='images/lscroll.GIF' width='182' height='11'></td>
+  </tr>
+  <tr>
+    <td colspan=2 class='footer'>
+      <table border='0' cellpadding='0' cellspacing='0' width='100%' class='noborder'>
+        <tr>
+          <td class='noborder'>{copyright}, Design: Chris Yarbrough ({pagegen}) </td>
+
+          <td align='right' class='noborder'>{source}</td>
+        </tr>
+				<tr class='noborder'><td colspan='2'>{version}</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+<!--!statstart--><table cellpadding=2 cellspacing=0 class='charinfo' width='150'>
+<!--!stathead--><tr><td class='charhead' colspan='2'><b>{title}</b></td></tr>
+<!--!statrow--><tr><td class='charinfo'><b>{title}</b></td><td class='charinfo'>`^{value}</td></tr>
+<!--!statbuff--><tr><td class='charinfo' colspan='2'><b>{title}:</b>`n{value}</td></tr>
+<!--!statend--></table>
+<!--!navhead--><span class="navhead">&#151;{title}&#151;<br></span>
+<!--!navhelp--><span class="navhelp">{text}<br></span>
+<!--!navitem--><a href="{link}"{accesskey}class='nav' {popup}>{text}<br></a>
+<!--!login-->
+<table width='212' height='234' border='0' cellpadding='0' cellspacing='0' background='images/logindragon.gif' class='noborder'>
+	<tr>
+		<td valign='bottom' align='center' class='noborder'>
+			{username}: <br><input name='name' accesskey='u' size='10'><br>
+			{password}:<br><input name='password' accesskey='p' type='password' size='10'><br>
+
+			<input type='submit' value='{button}' class='button'><br>
+			<img src='images/trans.gif' width='1' height='37' align='absmiddle' alt=''>
+			<img src='images/trans.gif' width='1' height='15'>
+		</td>
+	</tr>
+</table>
+<!--!full-->
+<table width='212' height='234' border='0' cellpadding='0' cellspacing='0' background='images/logindragon.gif' class='noborder'> 
+   <tr> 
+      <td valign='bottom' align='center' class='noborder'> 
+         <br>`b`$Server<br><br> 
+         voll!`b<br><br><br> 
+         <img src='images/trans.gif' width='1' height='37' align='absmiddle' alt=''> 
+      </td> 
+   </tr> 
+</table> 

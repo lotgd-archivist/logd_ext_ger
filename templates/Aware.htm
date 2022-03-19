@@ -1,0 +1,92 @@
+<!--!header-->
+<html>
+<head>
+  <title>{title} - LoGD</title>
+  <link href="templates/aware2.css" rel="stylesheet" type="text/css">
+{headscript}
+{script}
+</head>
+<body bgcolor="#000000" text="#CCCCCC" link="#FF6600" vlink="#FF6600" alink="#CCCCCC">
+<table width="100%" border="0" cellpadding="0" cellspacing="4">
+  <tr>
+    <td>
+
+      <table width="100%" border="0" cellpadding="4" cellspacing="0">
+        <tr>
+          <td width="120" valign="top">
+					{title}
+          </td>
+          <td valign="top"><font size="+4">Legend of the <font color="#009900">Green</font> Dragon</font></td>
+          <td width="208" valign="top">
+            <table width="100%" border="0" cellpadding="4" cellspacing="0" class="stats">
+              <tr>
+
+                <td align="right" valign="top" class="sessioninfo">{motd}<br>{mail}<br>{petition}<br>{forum}<br>{chat}</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" border="0" cellpadding="4" cellspacing="0">
+        <tr>
+          <td width="150" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tr>
+                <td align="left" valign="top" class="stats">{nav}</td>
+
+              </tr>
+            </table>
+          </td>
+          <td valign="top"><!--!footer--></td>
+          <td width="150" valign="top">
+            <table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tr>
+                <td align="right" valign="top" class="stats">{stats}<br>{paypal}<br>{source}</td>
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+			<table width="100%">
+				<tr>
+					<td align="left" class="footer" valign="top">{version}</td>
+					<td align="right" class="footer">
+						{copyright}<br><a href="http://www.aware-entertainment.com" target="_blank">Layout by Duplex of Aware Entertainment, Inc.</a>
+					</td>
+				</tr>
+			</table>
+		</td>
+  </tr>
+</table>
+</body>
+</html>
+<!--!statstart--><table cellpadding=2 cellspacing=0 class='charinfo' width='150'>
+<!--!stathead--><tr><td class='charhead' colspan='2'><b>{title}</b></td></tr>
+<!--!statrow--><tr><td class='charinfo'><b>{title}</b></td><td class='charinfo'>`^{value}</td></tr>
+<!--!statbuff--><tr><td class='charinfo' colspan='2'><b>{title}:</b>`n{value}</td></tr>
+<!--!statend--></table>
+<!--!navhead--><span class="navhead">&#151;{title}&#151;<br></span>
+<!--!navhelp--><span class="navhelp">{text}<br></span>
+<!--!navitem--><a href="{link}"{accesskey}class='nav' {popup}>{text}<br></a>
+<!--!login-->
+<table width='212' height='234' border='0' cellpadding='0' cellspacing='0' background='images/logindragon.gif' class='noborder'>
+	<tr>
+		<td valign='bottom' align='center' class='noborder'>
+			{username}: <br><input name='name' accesskey='u' size='10'><br>
+			{password}:<br><input name='password' accesskey='p' type='password' size='10'><br>
+			<input type='submit' value='{button}' class='button'><br>
+			<img src='images/trans.gif' width='1' height='37' align='absmiddle' alt=''>
+			<img src='images/trans.gif' width='1' height='15'>
+		</td>
+	</tr>
+</table>
